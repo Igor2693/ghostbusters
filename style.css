@@ -1,0 +1,268 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  max-width: 1440px;
+  margin: auto;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding-top: 40px;
+  padding-bottom: 40px; */
+  border: 1px solid #D4D4D4;
+  margin-bottom: 150px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-basis: 100%;
+}
+.logo {
+  padding: 34px;
+  border-right: 1px solid #D4D4D4;
+}
+.logo-label {
+  color: #5671F6;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 900;
+}
+.search-nav {
+  /* background: url(/img/search-icon.svg) repeat: no-repeat; */
+  margin-left: 72px;
+}
+.buttons-nav {
+  display: flex;
+}
+.registration {
+  padding: 40px;
+  border-left: 1px solid #D4D4D4;
+  color: #5671F6;
+}
+.login {
+  padding: 40px;
+  color: white;
+  background-color: #5671F6;
+}
+.nav-item-1 {
+  margin-right: 18px;
+}
+.nav-item-2 {
+  margin-right: 18px;
+}
+.nav-item-3 {
+  margin-right: 18px;
+}
+.nav-item-4 {
+  margin-right: 45px;
+}
+.nav-item {
+  color: #363636;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* Главная часть */
+.main {
+  max-width: 1130px;
+  margin: auto;
+  display: flex;
+  margin-bottom: 90px;
+}
+.img-poster {
+  margin-right: 60px;
+  display: flex;
+  flex-direction: column;
+}
+.play-button {
+  display: flex;
+  border: 1px solid #D4D4D4;
+  border-radius: 0px 0px 5px 5px;
+  align-items: center;
+  justify-content: center;
+  padding: 28px 80px;
+}
+.look-trailer {
+  color: #5671F6;
+  font-size: 16px;
+  font-weight: 400;
+}
+.play {
+  margin-right: 14px;
+}
+.title {
+  color: #363636;
+  font-size: 36px;
+  font-weight: 900;
+}
+.title-short {
+  color: #A5A5A5;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.title-p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 50px;
+}
+.informacion-about-film {
+  display: flex;
+  margin-bottom: 50px;
+}
+.left-block {
+  
+}
+.item-info {
+  margin-bottom: 16px;
+}
+.raiting {
+  display: flex;
+}
+.raiting-number {
+  border: 1px solid #5671F6;
+  border-radius: 10px;
+  padding: 34px 24px;
+  color: #5671F6;
+  text-align: center;
+  font-size: 28px;
+  font-weight: 700;
+  margin-right: 28px;
+}
+.middle-raiting {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 700;
+}
+.all-raiting {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 700;
+}
+.raiting-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.raiting-info-1 {
+  color: #363636;
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+.raiting-info-2 {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 7px;
+}
+.raiting-info-3 {
+  color: #363636;
+  font-size: 16px;
+  font-weight: 400;
+}
+.line-1 {
+  color: #A5A5A5;
+  margin-bottom: 70px;
+}
+
+/* Блок с актерами */
+
+.actors-container {
+  max-width: 1130px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+.actors-list {
+  /* display: flex; */
+}
+.block-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+.block-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.actor {
+  display: flex;
+  align-items: center;
+  width: 245px;
+}
+.actor-info {
+  display: flex;
+  flex-direction: column;
+}
+.foto-actor {
+  margin-right: 20px;
+}
+.name-ru {
+  color: #5671F6;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+.name-eng {
+  color: #A5A5A5;
+  font-size: 16px;
+  font-weight: 400;
+}
+.actors-title {
+  color: #363636;
+  font-size: 24px;
+  font-weight: 900;
+  margin-right: 30px;
+}
+.creator {
+  color: #A5A5A5;
+  font-size: 24px;
+  font-weight: 400;
+}
+.actors-heading {
+  margin-bottom: 60px;
+}
+
+/* Подвал сайта */
+
+.footer {
+  background-color: #F3F3F3;
+  padding-top: 70px;
+  padding-bottom: 100px;
+}
+.footer-container {
+  max-width: 1130px;
+  margin: auto;
+}
+.footer-title {
+  color: #000;
+  font-size: 24px;
+  font-weight: 900;
+}
+.news-container {
+  display: flex;
+  justify-content: space-between;
+}
+.news-item {
+  width: 200px;
+  /* height: 100px; */
+}
+.unit {
+  padding: 30px;
+  width: 260px;
+  height: 160px;
+  background-color: #FFFFFF;
+}
+.news-text {
+  color: #000;
+  font-size: 14px;
+  font-weight: 900;
+}
+.news-data {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
